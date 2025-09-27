@@ -1,5 +1,5 @@
 const body = document.body;
-const text = document.getElementById("text");
+const text = document.getElementById("text").focus();
 
 text.innerText = "";
 
@@ -77,4 +77,5 @@ body.addEventListener("keyup", function (event) {
     key.style.backgroundColor = "white";
     key.style.color = "black";
   }
+
 });
