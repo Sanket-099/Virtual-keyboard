@@ -1,5 +1,5 @@
 const body = document.body;
-const text = document.getElementById("text").focus();
+const text = document.getElementById("text");
 
 text.innerText = "";
 
@@ -79,3 +79,4 @@ body.addEventListener("keyup", function (event) {
   }
 
 });
+
